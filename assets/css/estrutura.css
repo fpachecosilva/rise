@@ -1,0 +1,594 @@
+@charset "UTF-8";
+
+/* Variaveis: */
+:root {
+  --principal: #103346;
+  --secundaria: #FFAE00;
+  
+  --margin: 30px;
+  --tempo: 500ms;
+  --radius: 10px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--principal);
+  font-family: 'Stara', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;  
+}
+
+a,
+ul,
+li,
+nav,
+section,
+.container,
+.logo,
+img,
+p, 
+svg
+
+{
+  -webkit-transition: all var(--tempo);
+  transition: all var(--tempo);
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--principal);
+}
+
+img {
+  display: block;
+  outline: none;
+  max-width: 100%;
+}
+
+section {
+  position: relative;
+  clear: both;
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.desk {
+  display: block;
+}
+
+.mob {
+  display: none;
+}
+
+article {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 50px;
+  max-width: 1145px;
+}
+
+article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container {
+  max-width: 1535px;  
+  /* max-width: 1280px;   */
+  margin: auto;
+}
+
+.dfc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dfl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dflt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dfsb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dfsbfe {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.gap50 {
+  gap: 50px;
+}
+
+.gap60 {
+  gap: 60px;
+}
+
+.gap65 {
+  gap: 65px;
+}
+
+.gap70 {
+  gap: 70px;
+}
+
+.gap75 {
+  gap: 75px;
+}
+
+.gap80 {
+  gap: 80px;
+}
+
+.gap150 {
+  gap: 150px!important;
+}
+
+.w500 {
+  font-weight: 500 !important;
+}
+
+.w600 {
+  font-weight: 600 !important;
+}
+
+.w700 {
+  font-weight: 700 !important;
+}
+
+.w800 {
+  font-weight: 800 !important;
+}
+
+.wrapper5050 {
+  display: flex;
+}
+.wrapper5050 > div {
+  width: 50%;
+}
+
+p {
+  color: #fff;
+  font-size: 32px;
+  line-height: 43px;
+}
+.corpri {
+  color: var(--principal);
+}
+.corsec {
+  color: var(--secundaria);
+}
+.title {
+  color: var(--secundaria);
+  font-size: 48px;
+}
+
+section.topo {
+  background-image: url('../img/topobg.jpg');
+  height: 100vh;
+  display: flex;
+}
+section.topo .centro {
+  width: 797px;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url('../img/centrobg.png');
+  padding: 145px 120px 68px 120px;  
+  margin: auto;
+  position: relative;
+  aspect-ratio: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+section.topo .centro p {
+  color: #fff;
+  font-size: 40px;
+  line-height: 52px;  
+  text-align: center;
+  margin-top: -12%;
+}
+section.topo .centro img {
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+section.topo .centro img:last-child {
+  margin-bottom: 14px;
+  width: 31px;
+}
+section.topo .centro .explore {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+section.secao2 {
+  background-color: var(--principal);
+  padding: 0;
+  height: 100vh;
+}
+
+section.secao2 nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #0000001c;
+  position: sticky;
+  top: 0;
+  z-index: 5;  
+  backdrop-filter: blur(10px);
+}
+section.secao2 nav::before {
+  content: '';
+  display: block;
+  width: 22%;
+  height: 100%;
+  position: absolute;
+  background-color: #00000024;
+  backdrop-filter: blur(10px);
+}
+section.secao2 nav.fixed {
+  position: fixed;
+  top: 0;
+}
+section.secao2 nav .container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+section.secao2 nav .container > img {
+  z-index: 10;
+  padding-left: 50px;
+}
+
+section.secao2 .esq {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -100px;
+  gap: 30px;
+}
+section.secao2 .dir {
+  margin-top: -100px;
+}
+section.secao2 .dir img {
+  margin-left: -10px;
+  max-height: 100vh;
+  z-index: 6;
+  position: relative;
+}
+
+/* CONTROLE DO FUNDO DO LOGO */
+@media screen and (min-width: 1520px) {
+  section.secao2 nav::before {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1690px) {
+  section.secao2 nav::before {
+    width: 30%;
+  }
+}
+
+section.secao3 {
+  /* background-image: url('../img/secao3bg.jpg');
+  background-size: cover; */
+  padding-top: 210px;
+}
+
+.parallax-js::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-image: url('../img/secao3bg.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transform: translateY(0);
+}
+
+section.secao3 p {
+  font-size: 24px;
+  line-height: 32px;
+}
+section.secao3 .title {
+  color: #fff;
+  font-size: 60px;
+  line-height: 65px;
+  margin-bottom: 25px;
+}
+section.secao3 .primeirobloco {
+  height: 502px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 98px;
+  padding-bottom: 198px;
+}
+section.secao3 .primeirobloco::before {
+  content: '';
+  display: block;
+  width: 1px;
+  background: #fff;
+  height: 100%;  
+  position: absolute;
+  left: 0;
+}
+section.secao3 .segundobloco .bloco {
+  padding: 200px 128px 105px;
+  border-radius: 20px;
+  background-color: #00000024;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 32px;
+  line-height: 43px;
+}
+section.secao3 .segundobloco .bloco a {
+  color: #fff;
+  text-decoration: underline;
+}
+section.secao3 .segundobloco .wrapper5050 {
+  gap: 20px;
+}
+section.secao3 .segundobloco .bloco:last-child {
+  font-size: 44px;
+  line-height: 48px;
+}
+section.secao3 .segundobloco .bloco .bloco-menor {
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  gap: 40px;
+}
+section.secao3 .segundobloco .bloco .bloco-menor .esq {
+  display: flex;
+  gap: 20px;
+}
+
+
+/* MOBILE */
+@media screen and (max-height: 730px), screen and (max-width: 1290px) {
+  section.topo .centro {
+    padding: 45px 200px 45px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+  }
+  section.topo .centro p {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 0;
+  }
+  section.topo .centro img {
+    width: 85px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  section.topo .centro img:last-child {
+    
+  }
+  section.topo .centro .explore {
+    position: relative;
+    left: initial;
+    margin-bottom: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .desk {
+    display: none;
+  }
+
+  .mob {
+    display: block;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+
+  .dfc,
+  .dfl,
+  .dfsb,
+  .dfsbfe,
+  .dflt {
+    flex-wrap: wrap;
+  }
+
+  .gap60 {
+    gap: 30px;
+  }
+
+}

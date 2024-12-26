@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-Black.woff2') format('woff2'),
+        url('Stara-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-BlackItalic.woff2') format('woff2'),
+        url('Stara-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-Bold.woff2') format('woff2'),
+        url('Stara-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-BoldItalic.woff2') format('woff2'),
+        url('Stara-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-ExtraBold.woff2') format('woff2'),
+        url('Stara-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-Medium.woff2') format('woff2'),
+        url('Stara-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-ExtraBoldItalic.woff2') format('woff2'),
+        url('Stara-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-MediumItalic.woff2') format('woff2'),
+        url('Stara-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-SemiBold.woff2') format('woff2'),
+        url('Stara-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stara';
+    src: url('Stara-SemiBoldItalic.woff2') format('woff2'),
+        url('Stara-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
