@@ -13,15 +13,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
   });
 
 
-  document.addEventListener('scroll', function () {
-		const parallaxSections = document.querySelectorAll('.parallax-js');
-
-		parallaxSections.forEach(section => {
-			const speed = parseFloat(section.getAttribute('data-speed')) || 0.5;
-			const offset = window.scrollY * speed;
-			section.querySelector('::before').style.transform = `translateY(${offset}px)`;
-		});
-	});
 
 })
 

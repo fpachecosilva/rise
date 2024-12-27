@@ -2,10 +2,10 @@
 	$empresa = 'Rise';
 	
 	// Local
-	//$url = 'http://localhost/rise/';
+	$url = 'http://localhost/rise/';
 
 	// Server Julio
-	$url = 'http://previewbsagency.com.br/rise/';
+	// $url = 'http://previewbsagency.com.br/rise/';
 	
 
 	$images = $url.'assets/img/';

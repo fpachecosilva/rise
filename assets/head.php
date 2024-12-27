@@ -23,10 +23,12 @@
 
 <link href="assets/fonts/Stara-Black.woff2" type="font/woff2" crossorigin>
 
-<script>
+<link type="text/css" rel="stylesheet" href="assets/css/estrutura.css"/>
+
+<!-- <script>
 	var randomNumber = Math.floor(Math.random() * (99999 - 10000) + 10000);
 	document.write(' <link type="text/css" rel="stylesheet" href="<?php echo $url ?>assets/css/estrutura.css?v'+randomNumber+'" media="all" /> ')
-</script>
+</script> -->
 
 
 <!-- Google tag (gtag.js) -->
@@ -39,4 +41,3 @@
 	gtag('config', 'XXXXXX');
 </script>
 
-<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
