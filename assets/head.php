@@ -21,9 +21,10 @@
 <meta property="og:url" content="<? echo $url ?>">
 <meta property="og:type" content="website">
 
-<link href="assets/fonts/Stara-Black.woff2" type="font/woff2" crossorigin>
 
 <link type="text/css" rel="stylesheet" href="assets/css/estrutura.css"/>
+<link type="text/css" rel="stylesheet" href="assets/fonts/fonts.css"/>
+<link href="assets/fonts/Stara-Black.woff2" type="font/woff2">
 
 <!-- <script>
 	var randomNumber = Math.floor(Math.random() * (99999 - 10000) + 10000);

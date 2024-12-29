@@ -7,7 +7,8 @@
     <title><? echo $tituloPagina ?></title>
   </head>
 
-  <body id="home">    
+  <body id="home">
+    <div class="cobre"></div>
     
     <section class="topo">
       <div class="centro">
