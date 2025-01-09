@@ -13,12 +13,12 @@
 <meta name="googlebot" content="index,follow" />
 <meta http-equiv="content-language" content="pt_BR" />
 
-<meta property="og:title" content="<? echo $empresa ?>">
+<meta property="og:title" content="<?php echo $empresa ?>">
 <meta property="og:description" content="Rise">
-<meta property="og:image" content="<? echo $images?>thumbnail.png">
+<meta property="og:image" content="<?php echo $images?>thumbnail.png">
 <meta property="og:image:width" content="2560" />
 <meta property="og:image:height" content="1536" />
-<meta property="og:url" content="<? echo $url ?>">
+<meta property="og:url" content="<?php echo $url ?>">
 <meta property="og:type" content="website">
 
 

@@ -54,16 +54,24 @@ document.addEventListener("DOMContentLoaded", ()=> {
   document.addEventListener("scroll", () => {
     const menu = document.getElementById("menu");
     const secao2 = document.querySelector(".secao2");
+    const secao3 = document.querySelector(".secao3");
+    const secao3Title = document.querySelector(".secao3 .title");
     const secao2Bottom = secao2.getBoundingClientRect().bottom;  
     let threshold = window.innerWidth < 769 ? 80 : 100;
 
-    console.log(secao2Bottom)
+    // console.log(secao2Bottom)
+    
 
     if (secao2Bottom <= 0) {
       menu.classList.add("fixed");
-      
+      //secao3.style.paddingTop = threshold + 'px';
+      //secao3Title.style.marginTop = threshold + 'px';
     } else {
       menu.classList.remove("fixed");
+      
+      //secao3.style.paddingTop = '0';
+      //secao3Title.style.marginTop = '0';
+      //secao3Title.style.marginTop = '-' + threshold + 'px';
     }
   });
 

@@ -3,8 +3,8 @@
 	<head>
     <?php include 'assets/config.php'; ?>
     <?php include 'assets/head.php'; ?>
-    <? $paginaAtual = 'Home'; $tituloPagina = $paginaAtual ." - ". $empresa; ?>
-    <title><? echo $tituloPagina ?></title>
+    <?php $paginaAtual = 'Home'; $tituloPagina = $paginaAtual ." - ". $empresa; ?>
+    <title><?php echo $tituloPagina ?></title>
   </head>
 
   <body id="home">
@@ -37,8 +37,8 @@
       </nav>
       <div class="container wrapper5050">
         <div class="esq">          
-          <p class="title">We are an impact asset<br class="desk"> management firm.</p>
-          <p>Our private equity funds invest in<br class="desk"> businessess tackling the planet's most<br class="desk"> pressing environmental, climate and<br class="desk"> social challenges.</p>
+          <p class="title">We are an<br class="mob"> impact asset<br> management firm.</p>
+          <p>Our private equity funds invest in businessess tackling the planet's most pressing environmental, climate and social challenges.</p>
         </div>
         <div class="dir">
           <img src="<?php echo $images?>secao2.png" alt="image" class="desk">
@@ -62,19 +62,22 @@
         <div class="segundobloco">
         <div class="wrapper5050">
           <div class="bloco">
-          If you're an investor, a purpose-driven company with ambitious goals, a talent, or someone eager to drive systemic change with us, please leave us a <a href="mailto:hello@riseventures.com.br" target="_blank">message.</a>
+            <span>
+              If you're an investor, a purpose-driven company with ambitious goals, a talent, or someone eager to drive systemic change with us, please leave us a <a href="mailto:<?php echo $email?>" target="_blank">message.</a>
+
+            </span>
           </div>
           <div class="bloco">
             Join us as we rise to our planet's biggest challenge
             <div class="bloco-menor">
               <div class="esq">
-                <a href="https://www.linkedin.com/company/rise_ventures/?originalSubdomain=pt" target="_blank"> <img src="<?php echo $images?>linkedin.svg" alt="image"></a>
-                <a href="https://www.instagram.com/rise_ventures/" target="_blank"> <img src="<?php echo $images?>insta.svg" alt="image"></a>
+                <a href="<?php echo $linkedin ?>" target="_blank"> <img src="<?php echo $images?>linkedin.svg" alt="image"></a>
+                <a href="<?php echo $instagram ?>" target="_blank"> <img src="<?php echo $images?>insta.svg" alt="image"></a>
               </div>
               <div class="dir">
-              <a href="mailto:hello@riseventures.com.br" target="_blank">hello@riseventures.com.br</a><br><br>
+              <a href="mailto:<?php echo $email?>" target="_blank"><?php echo $email?></a><br><br>
               Aya Hub • nº 28<br> 
-              Alameda Rio Claro • Bela Vista<br> 
+              Alameda Rio Claro • Bela Vista<br>
               São Paulo • SP • Brazil<br>
               01332-010
               </div>
@@ -85,6 +88,6 @@
       </div>
     </section>  
 
-    <? include ('assets/footer.php') ?>
+    <?php include ('assets/footer.php') ?>
   </body>
 </html>

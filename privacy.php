@@ -4,7 +4,7 @@
     <?php include 'assets/config.php'; ?>
     <?php include 'assets/head.php'; ?>
     <? $paginaAtual = 'Privacy Policy'; $tituloPagina = $paginaAtual ." - ". $empresa; ?>
-    <title><? echo $tituloPagina ?></title>
+    <title><?php echo $tituloPagina ?></title>
   </head>
 
   <body id="privacy">
@@ -85,6 +85,6 @@
 			</div>
 		</section>
 
-    <? include ('assets/footer.php') ?>
+    <?php include ('assets/footer.php') ?>
   </body>
 </html>

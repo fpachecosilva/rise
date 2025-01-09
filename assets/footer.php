@@ -7,24 +7,22 @@
 					<div class="footer-menu-topo-esq">
 						<ul>
 							<li>
-								<a href="">Annual Report</a>
+								<a href="<?php echo $pdfs?>Rise-AnnualReport.pdf" target="_blank">Annual Report</a>
 							</li>
 							<li>
 								<a href="privacy.php">Privacy Policy</a>
 							</li>
-							<li>
-								<a href="">Sustainability Forms</a>
-							</li>
+							
 						</ul>
 					</div>
 					<div class="footer-menu-baixo-dir">
 						<ul>
 							<li>
-								<a href="">Mandatory Policies</a>
+								<a href="<?php echo $pdfs?>Rise-MandatoryPolicies.pdf" target="_blank">Mandatory Policies</a>
 							</li>
-							<li>
-								<a href="">Financial Statements</a>
-							</li>
+							<!-- <li>
+								<a href="<?php echo $pdfs?>Rise-FinancialStatements.pdf" target="_blank">Financial Statements</a>
+							</li>							 -->
 							<li>
 								<a href="complaints.php">Complaints Channel</a>
 							</li>

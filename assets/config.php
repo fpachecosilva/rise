@@ -1,15 +1,19 @@
-<?
+<?php
 	$empresa = 'Rise';
 	
 	// Local
 	//$url = 'http://localhost/rise/';
 
 	// Server Julio
-	 $url = 'https://previewbsagency.com.br/rise/';
+	//$url = 'https://previewbsagency.com.br/rise/';
+	
+	// Server Site
+	$url = 'https://rise.investments/';
 	
 
 	$images = $url.'assets/img/';
 	$download = $url.'assets/download/';
+	$pdfs = $url.'assets/pdf/';
 	$Tags = '';
 		
 	// Páginas
@@ -19,12 +23,13 @@
 
 
 	// contato
-		$email = '';
+		$email = 'hello@rise.investments';
 
 	// Social
 		$facebook = '';
 		$facebookid = '';
-		$instagram = '';
+		$instagram = 'https://www.instagram.com/rise_life-centered_investments/';
+		$linkedin = 'https://www.linkedin.com/company/rise_life-centered_investments';
 
 		$tituloPagina = '';
 		$urlPagina = '';
